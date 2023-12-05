@@ -3,7 +3,7 @@ var total = 0;
 
 foreach (var line in arr)
 {
-    total += Logic.PartTwo(line);    
+    total += Logic.PartTwo(line);   
 }
 
 Console.WriteLine(total);

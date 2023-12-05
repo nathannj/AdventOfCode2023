@@ -6,13 +6,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-  <ItemGroup>
-    <None Remove="TestDate.txt" />
-  </ItemGroup>
-  
+
   <ItemGroup>
     <EmbeddedResource Include="TestData.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
+
 </Project>
